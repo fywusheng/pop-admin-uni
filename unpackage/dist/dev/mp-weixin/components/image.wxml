@@ -1,0 +1,1 @@
+<view class="topic-image _div"><image class="image _img" style="{{'height:'+(height+'rpx')+';'}}" src="{{img}}" data-event-opts="{{[['load',[['load',['$event']]]],['tap',[['onTap',['$event']]]]]}}" bindload="__e" bindtap="__e"></image></view>

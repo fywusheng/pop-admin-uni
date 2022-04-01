@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/category/main",
+    "pages/cart/main",
+    "pages/me/main",
+    "pages/login/main"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "芒果微购",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f7f7f7",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "color": "#202020",
+    "selectedColor": "#202020",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "iconPath": "/static/images/footer/home.png",
+        "selectedIconPath": "/static/images/footer/home-active.png"
+      },
+      {
+        "pagePath": "pages/category/main",
+        "text": "分类",
+        "iconPath": "/static/images/footer/category.png",
+        "selectedIconPath": "/static/images/footer/category-active.png"
+      },
+      {
+        "pagePath": "pages/cart/main",
+        "text": "购物车",
+        "iconPath": "/static/images/footer/cart.png",
+        "selectedIconPath": "/static/images/footer/cart-active.png"
+      },
+      {
+        "pagePath": "pages/me/main",
+        "text": "我的",
+        "iconPath": "/static/images/footer/me.png",
+        "selectedIconPath": "/static/images/footer/me-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "uni-demo",
+  "version": "1.0.0",
+  "description": "1231",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aliyun-iot-device-sdk": "^1.0.1",
+    "axios": "^0.18.0",
+    "crypto-js": "^3.1.9-1",
+    "lodash": "^4.17.11",
+    "md5": "^2.2.1",
+    "uuid-js": "^0.7.5",
+    "vuex": "^3.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

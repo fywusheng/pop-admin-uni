@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-image": "/components/image",
+    "banner": "/components/banner",
+    "pingou": "/components/pingou",
+    "item-list-h": "/components/item-list-h",
+    "t-title": "/components/title",
+    "space": "/components/space",
+    "item-list": "/components/item-list/index",
+    "cms-rich-text": "/components/rict-text",
+    "t-image-list": "/components/image-list/index"
+  }
+}

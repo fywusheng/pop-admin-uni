@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+/**
+ * colors
+ */
+/**
+ * @function
+ */
+image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+view, input, image, textarea, scroll-view, button {
+  box-sizing: border-box;
+}
+.line {
+  height: 20rpx;
+  background-color: #f2f2f2;
+}
+button {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+button:after {
+  border-radius: 0;
+  border: none;
+}
+/**
+ * colors
+ */
+/**
+ * @function
+ */
+image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+view, input, image, textarea, scroll-view, button {
+  box-sizing: border-box;
+}
+.line {
+  height: 20rpx;
+  background-color: #f2f2f2;
+}
+button {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+button:after {
+  border-radius: 0;
+  border: none;
+}
+.btn-block {
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  background-color: #111;
+  text-align: center;
+  letter-spacing: 2rpx;
+  display: block;
+  width: 100%;
+  border-radius: 8rpx;
+}
+.btn {
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  background-color: #111;
+  text-align: center;
+  letter-spacing: 2rpx;
+}
+.btn-round {
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  background-color: #111;
+  text-align: center;
+  letter-spacing: 2rpx;
+  border-radius: 44rpx;
+}
+.btn-bottom-fixed {
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 28rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  background-color: #111;
+  text-align: center;
+  letter-spacing: 2rpx;
+  width: 690rpx;
+  border-radius: 8rpx;
+}
+.btn-bottom-fixed.isIphoneHair {
+  bottom: 64rpx;
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+.btn-bottom-fixed {
+    bottom: 78rpx;
+}
+}
+.empty {
+  padding-top: 160rpx;
+  font-size: 26rpx;
+  color: #25292D;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+}
+.empty ._img {
+  display: block;
+  margin-bottom: 30rpx;
+  margin-left: auto;
+  margin-right: auto;
+  width: 223rpx;
+  height: 257rpx;
+}
+.empty .btn-home {
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  background-color: #111;
+  text-align: center;
+  letter-spacing: 2rpx;
+  display: block;
+  width: 100%;
+  border-radius: 8rpx;
+  margin-top: 65rpx;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320rpx;
+}
+.topic-item-list-h {
+  display: flex;
+  align-items: center;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+.topic-item-list-h .item {
+  position: relative;
+  padding-bottom: 25rpx;
+  width: 210rpx;
+  margin-right: 20rpx;
+  box-shadow: 1rpx 2.598rpx 7rpx 0 rgba(0, 0, 0, 0.1);
+}
+.topic-item-list-h .item .more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 210rpx;
+  height: 185rpx;
+  line-height: 185rpx;
+  font-size: 24rpx;
+  color: #f8f8f8;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.502);
+}
+.topic-item-list-h .item .item-logo {
+  width: 210rpx;
+  height: 185rpx;
+}
+.topic-item-list-h .item .item-name {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  padding-top: 10rpx;
+  font-size: 26rpx;
+  color: #484848;
+  overflow: hidden;
+  white-space: nowrap;
+  word-break: keep-all;
+  text-overflow: ellipsis;
+}
+.topic-item-list-h .item .item-price {
+  padding-top: 15rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+

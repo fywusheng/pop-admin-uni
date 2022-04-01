@@ -1,0 +1,1 @@
+<view class="topic-title _div" style="{{(style)}}">{{''+content.text+''}}</view>

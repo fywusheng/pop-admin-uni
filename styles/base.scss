@@ -1,0 +1,52 @@
+@import "./variable.scss";
+@import "./mixin.scss";
+@import "./common.scss";
+
+.btn-block {
+  @include btn-block();
+}
+.btn {
+  @include btn();
+}
+.btn-round {
+  @include btn-round();
+}
+.btn-bottom-fixed {
+  @include middle-center-x(fixed);
+  bottom: rpx(28);
+  @include btn();
+  width: rpx(690);
+  border-radius: rpx(8);
+  &.isIphoneHair {
+    bottom: rpx(64);
+  }
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .btn-bottom-fixed {
+    bottom: rpx(78);
+  }
+}
+.empty {
+  padding-top: rpx(160);
+  font-size: rpx(26);
+  color: #25292D;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  img {
+    display: block;
+    margin-bottom: rpx(30);
+    margin-left: auto;
+    margin-right: auto;
+    width: rpx(223);
+    height: rpx(257);
+  }
+  .btn-home {
+    @include btn-block();
+    margin-top: rpx(65);
+    margin-left: auto;
+    margin-right: auto;
+    width: rpx(320);
+  }
+}
+

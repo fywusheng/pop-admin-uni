@@ -1,0 +1,1 @@
+<view class="topic-rich-text _div" style="{{'background-color:'+(content.color)+';'}}"><rich-text class="rich-text" nodes="{{content.text}}"></rich-text></view>

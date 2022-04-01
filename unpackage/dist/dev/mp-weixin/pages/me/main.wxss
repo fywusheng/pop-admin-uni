@@ -1,0 +1,328 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+/**
+ * colors
+ */
+/**
+ * @function
+ */
+image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+view, input, image, textarea, scroll-view, button {
+  box-sizing: border-box;
+}
+.line {
+  height: 20rpx;
+  background-color: #f2f2f2;
+}
+button {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+button:after {
+  border-radius: 0;
+  border: none;
+}
+/**
+ * colors
+ */
+/**
+ * @function
+ */
+image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+view, input, image, textarea, scroll-view, button {
+  box-sizing: border-box;
+}
+.line {
+  height: 20rpx;
+  background-color: #f2f2f2;
+}
+button {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+button:after {
+  border-radius: 0;
+  border: none;
+}
+.btn-block {
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  background-color: #111;
+  text-align: center;
+  letter-spacing: 2rpx;
+  display: block;
+  width: 100%;
+  border-radius: 8rpx;
+}
+.btn {
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  background-color: #111;
+  text-align: center;
+  letter-spacing: 2rpx;
+}
+.btn-round {
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  background-color: #111;
+  text-align: center;
+  letter-spacing: 2rpx;
+  border-radius: 44rpx;
+}
+.btn-bottom-fixed {
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 28rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  background-color: #111;
+  text-align: center;
+  letter-spacing: 2rpx;
+  width: 690rpx;
+  border-radius: 8rpx;
+}
+.btn-bottom-fixed.isIphoneHair {
+  bottom: 64rpx;
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+.btn-bottom-fixed {
+    bottom: 78rpx;
+}
+}
+.empty {
+  padding-top: 160rpx;
+  font-size: 26rpx;
+  color: #25292D;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+}
+.empty ._img {
+  display: block;
+  margin-bottom: 30rpx;
+  margin-left: auto;
+  margin-right: auto;
+  width: 223rpx;
+  height: 257rpx;
+}
+.empty .btn-home {
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  background-color: #111;
+  text-align: center;
+  letter-spacing: 2rpx;
+  display: block;
+  width: 100%;
+  border-radius: 8rpx;
+  margin-top: 65rpx;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320rpx;
+}
+page {
+  padding-bottom: 50rpx;
+  background-color: #F4F4F4;
+}
+.top-banner {
+  padding: 20rpx 16rpx 0;
+  background-color: #fff;
+}
+.top-banner .user-info {
+  position: relative;
+  padding: 60rpx 30rpx 25rpx;
+  box-sizing: border-box;
+  height: 280rpx;
+  width: 718rpx;
+  background: black;
+  background-size: cover;
+  color: #fff;
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+}
+.top-banner .user-info .user-name {
+  padding-left: 124rpx;
+  padding-bottom: 15rpx;
+  font-size: 34rpx;
+  line-height: 48rpx;
+  height: 48rpx;
+}
+.top-banner .user-info .mobile, .top-banner .user-info .login-btn {
+  padding-left: 124rpx;
+  font-size: 24rpx;
+  line-height: 33rpx;
+}
+.top-banner .user-info .login-btn {
+  display: flex;
+  align-content: center;
+  font-size: 22rpx;
+}
+.top-banner .user-info .login-btn ._img {
+  margin-top: 10rpx;
+  margin-left: 15rpx;
+  width: 12rpx;
+  height: 22rpx;
+}
+.top-banner .user-info .head-menu-list {
+  display: flex;
+  padding-top: 60rpx;
+}
+.top-banner .user-info .head-menu-list .menu {
+  flex: 1;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  text-align: center;
+}
+.top-banner .user-info .head-menu-list .menu image {
+  width: 30rpx;
+  height: 30rpx;
+}
+.top-banner .user-info .head-menu-list .menu .value {
+  font-size: 30rpx;
+  line-height: 42rpx;
+}
+.top-banner .user-info .user-icon {
+  position: absolute;
+  left: 30rpx;
+  top: 40rpx;
+}
+.top-banner .user-info .user-icon .img {
+  width: 104rpx;
+  height: 104rpx;
+  border-radius: 50%;
+  background: center no-repeat;
+  background-size: contain;
+  background-size: cover;
+  background-image: url(https://xiu-mini.oss-cn-beijing.aliyuncs.com/user-logo.png);
+}
+.order-menu-list {
+  background-color: #fff;
+  padding-top: 30rpx;
+}
+.order-menu-list .order-type-title {
+  position: relative;
+  border-bottom: 1rpx solid #eee;
+  padding: 20rpx 30rpx;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #000000;
+  line-height: 42rpx;
+  font-size: 30rpx;
+}
+.order-menu-list .order-type-title .btn-right {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.order-menu-list .order-type-title .btn-right ._img {
+  margin-left: 10rpx;
+  width: 25rpx;
+  height: 25rpx;
+}
+.order-menu-list .order-type-list {
+  display: flex;
+  justify-content: space-between;
+}
+.order-menu-list .order-type-list .order-type {
+  position: relative;
+  flex: 1;
+  text-align: center;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+.order-menu-list .order-type-list .order-type .count {
+  position: absolute;
+  right: 25rpx;
+  top: 20rpx;
+  width: 32rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #CF1133;
+  color: #fff;
+  font-size: 20rpx;
+}
+.order-menu-list .order-type-list .order-type .icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12rpx;
+  width: 54rpx;
+  height: 54rpx;
+}
+.order-menu-list .order-type-list .order-type .name {
+  font-size: 22rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #000000;
+  line-height: 30rpx;
+}
+.menu-list {
+  margin-top: 20rpx;
+  padding-left: 35rpx;
+  padding-right: 35rpx;
+  background-color: #fff;
+}
+.menu-list .menu {
+  position: relative;
+  height: 104rpx;
+  line-height: 104rpx;
+  font-size: 26rpx;
+  color: #121212;
+  background-color: #fff;
+  text-align: left;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-list .menu .icon-right {
+  width: 30rpx;
+  height: 30rpx;
+}
+.menu-list .menu .contact-btn {
+  height: 104rpx;
+  line-height: 104rpx;
+  font-size: 26rpx;
+  color: #121212;
+  background-color: #fff;
+  text-align: left;
+}
+.menu-list .menu ._img {
+  position: absolute;
+  top: 34rpx;
+  right: 0;
+  width: 36rpx;
+  height: 36rpx;
+}
+
